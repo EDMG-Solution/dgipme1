@@ -1,1 +1,171 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+nav.menu-header {
+  width: 96%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 63px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav.menu-header .menu-titre a {
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0B1437;
+}
+
+nav.menu-header .menu-titre .active-link {
+  color: #835600 !important;
+  border-bottom: 2px solid  #835600;
+  padding-bottom: 2px;
+  display: inline-block;
+}
+
+nav.menu-header .menu-button button.button-menu-1 {
+  height: 38px;
+  background: none;
+  border-radius: 8px;
+  border: solid #0B1437 1px;
+  color: #0B1437;
+  width: 170px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0px 5px;
+}
+
+nav.menu-header .menu-button button.button-menu-1:hover {
+  background: #0B1437;
+  color: #ffffff;
+}
+
+nav.menu-header .menu-button button.button-menu-2 {
+  height: 38px;
+  background: #0B1437;
+  border-radius: 8px;
+  border: solid #0B1437 1px;
+  color: #ffffff;
+  width: 170px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0px 5px;
+}
+
+nav.menu-header .menu-button button.button-menu-2:hover {
+  background: white;
+  color: #0B1437;
+}
+
+.image-header {
+  height: 675px;
+  width: 100% !important;
+  background: url(/images/image-home-pricipal.png);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.image-header .text-interieur-image {
+  width: 50%;
+  color: #ffffff;
+  line-height: 40px;
+  margin: 2%;
+}
+
+.image-header .text-interieur-image h1 {
+  font-size: 38px;
+}
+
+.image-header .text-interieur-image p {
+  font-size: 24px;
+}
+
+.image-header .text-interieur-image .button-image1 {
+  height: 65px;
+  background: #835600;
+  border-radius: 8px;
+  border: solid #ffffff  1px;
+  color: #ffffff;
+  width: 293px;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 0px 5px;
+}
+
+.image-header .text-interieur-image .button-image2 {
+  height: 65px;
+  background: #0B1437;
+  border-radius: 8px;
+  border: solid #ffffff 1px;
+  color: #ffffff;
+  width: 344px;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 0px 5px;
+}
+
+.section-aprop {
+  width: 96%;
+  margin: 4% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-aprop .apropos-gauche {
+  width: 50%;
+}
+
+.section-aprop .apropos-gauche h1 {
+  color: #0B1437;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.section-aprop .apropos-gauche p {
+  width: 90%;
+  line-height: 50px;
+  text-align: justify;
+  color: #323232;
+}
+
+.section-aprop .apropos-droite {
+  margin-top: 3%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section-aprop .apropos-droite .image-icone {
+  text-align: center;
+  width: 35%;
+  color: #1B254B;
+}
+/*# sourceMappingURL=style.css.map */
