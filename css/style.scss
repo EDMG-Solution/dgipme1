@@ -83,7 +83,7 @@ nav.menu-header {
     height: 675px;
     width: 100% !important;
     background:url(/images/image-home-pricipal.png);
-    position: relative;
+   
     display: flex;
     align-items: center;
 
@@ -341,4 +341,215 @@ nav.menu-header {
 
     }
 
+    .pagination {
+        display: flex;
+        justify-content: space-between;
+        margin: 4% auto;
+
+        .page1234 {
+
+            .bttpagination-actives {
+                background:#0B1437;
+                padding: 10px 20px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-size: 25px;
+                color:#FFFFFF;
+                font-weight: bold;
+            }
+            .button-page1 {
+                text-decoration: none;
+                color:#0B1437;
+                padding: 20px;
+                border-radius: 8px;
+                font-size: 25px;
+                 font-weight: bold;
+            }
+        }
+    }
+
+    .button-fournisseur{
+        a{
+            button{
+
+              
+                    background: white;
+                    border-radius: 8px;
+                    text-align: center;
+                    font-size: 20px;
+                    line-height: 45px;
+                    font-weight: 500;
+                    color:#111C44;
+                    border: solid;  
+                    svg {
+                        margin: -5px auto;
+                    }  
+            }
+        }
+
+    }
+
+
+}
+
+.vous-este-fournisseur {
+    width: 96%;
+    margin: auto;
+    height: 420px;
+    border-radius: 8px;
+    background: #f1f1f3;
+    display: flex;
+
+    .setion-gauche {
+        width: 42%;
+        margin: auto;
+
+        h1 {
+            color: #0B1437;
+            font-size: 35px;
+            font-weight: bold;
+       
+        }
+        p{
+            font-size: 22px;
+            line-height:40px;
+        }
+        .deux-button-interne {
+            display: flex;
+            justify-content: space-between;
+            width: 83%;
+        }
+
+        .deux--interne{
+            height: 55px;
+            width: 226px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+
+            .butoon1{
+                background: #39B8FF !important;
+                border: solid #39B8FF !important;
+                color: #ffffff;
+
+            }
+
+            .butoon2{
+
+                color: #111C44;
+                border: solid #111C44 !important;
+
+            }
+        
+    }
+
+  
+
+    .setion-droit{
+        background: url(/images/persone.png);
+        width: 50%;
+        background-repeat: no-repeat;
+    }
+}
+
+.liste-cadre-box{
+    height: 331px;
+    background:#f7f8f8;
+    border-radius: 8px;
+    border: solid #ABABAB;
+    padding: 2%;
+
+    p{
+        color:#ABABAB;
+    }
+
+
+    .titre-statut {
+        display: flex;
+        align-items: center;
+
+        h1{
+            color: #0B1437;
+            font-size: 30px;
+            margin: 0px;
+        }
+        p{
+            color: #01B574;
+            font-size: 19px;
+            font-weight: bold;
+            margin: auto 40px;
+        }
+
+
+    }
+    .titre-vue-{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+        .vue-votes{
+            
+                font-size: 18px;
+                color:#111C44;
+        
+
+        }
+    }
+
+    .budget-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    .categore-fourniseur {
+        color: #39B8FF;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .description{
+        color:#000000;
+        font-size: 19px;
+
+    }
+
+
+    .budget-button {
+        font-size: 24px;
+        font-weight: bold;
+        color: #835600;  
+        margin: 2% 0% 0% 0%;
+
+        .budget-icone {
+            display: flex;
+            span{
+                margin: auto ;
+            }
+            .separateur{
+                color: #000000;
+                font-weight: normal;
+
+            }
+        }
+
+        button {
+            background: #DA4343;
+            height: 46px;
+            width: 145px;
+            border: none;
+            border-radius: 8px;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: bold;
+
+            }
+        }
+    }
 }
