@@ -171,3 +171,174 @@ nav.menu-header {
 
 
 }
+
+.quoi-avez-vous-besoin{
+
+    width: 96%;
+    margin: auto;
+    
+   
+
+
+    .button-texte-recherche {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+       
+        align-items: center;
+
+        h1{
+            color: #0B1437;
+            font-size: 42px;
+            font-weight: bold;
+        }
+
+        p{
+            width: 90%;
+        color: #323232;
+    
+        }
+        a.button-recherche {
+            text-decoration: none;
+            background:#835600;
+            padding: 10px;
+            border-radius: 8px;
+            color: white;
+            font-size: 18px;
+            font-weight: normal;
+
+          
+                display: flex;
+                align-content: center;
+                justify-content: space-between;
+                align-items: center;
+                width: 146px;
+            
+        }
+    }
+
+    .card-top-fournisseur {
+        display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+        .card-fourniseur{
+            
+            height: 456px;
+            width: 24%;
+            border-radius: 8px 8px 8px;
+            position: relative;
+            
+                margin: 1% 0%;
+    
+
+            .voter-et-detaille{
+                padding-top: 11%;
+                display: flex;
+                margin: auto;
+                justify-content: space-between;
+
+              a{
+                text-decoration: none;
+                color: white;
+                padding: 5px;
+                font-size: 12px;
+                font-weight: bold;
+              }
+
+              .votez{
+                background: #0B1437;
+              }
+
+              .voir-détail{
+                background: #835600;
+              }
+               
+
+            }
+
+            h1{
+                width: 90%;
+                margin: 10% auto;
+                font-size: 31px;
+                color: #ffffff;
+
+            }
+            .dip-etoile{
+                width: 90%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                
+                .dipoble-vert {
+                    font-size: 16px;
+                    color:#01B574;
+                    font-weight: bold;
+                }
+
+                .dipoble-vert.Occupe {
+                    color: #7551FF !important;
+                }
+
+
+            }
+
+            .text-body {
+                width: 90%;
+                margin: 5% auto;
+                line-height: 30px;
+                color: white;
+                font-size:21px;
+            }
+
+
+            .prix-dans-crard {
+                background:#EE5D50;
+                width: 52%;
+                margin: auto 5%;
+                padding: 10px;
+                color: white;
+                font-size: 15px;
+                font-weight: bold;
+                border-radius: 8px;
+            }
+        }
+
+        .cardnumero1{
+            background:url(/images/top-fournisseurs/1.png);
+            background-repeat: no-repeat;
+        }
+        .cardnumero2{
+            background:url(/images/top-fournisseurs/2.png);
+            background-repeat: no-repeat;
+        }
+        .cardnumero3{
+            background:url(/images/top-fournisseurs/3.png);
+            background-repeat: no-repeat;
+        }
+        .cardnumero4{
+            background:url(/images/top-fournisseurs/4.png);
+            background-repeat: no-repeat;
+        }
+        .cardnumero5{
+            background:url(/images/top-fournisseurs/5.png);
+            background-repeat: no-repeat;
+        }
+        .cardnumero6{
+            background:url(/images/top-fournisseurs/6.png);
+            background-repeat: no-repeat;
+        }
+
+        .cardnumero7{
+            background:url(/images/top-fournisseurs/7.png);
+            background-repeat: no-repeat;
+        }
+        .cardnumero8{
+            background:url(/images/top-fournisseurs/8.png);
+            background-repeat: no-repeat;
+        }
+
+
+    }
+
+}
