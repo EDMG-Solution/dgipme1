@@ -85,7 +85,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 }
 
 .image-header .text-interieur-image {
-  width: 50%;
+  width: 58%;
   color: #ffffff;
   line-height: 40px;
   margin: 2%;
@@ -316,41 +316,49 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero1 {
   background: url(/images/top-fournisseurs/1.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero2 {
   background: url(/images/top-fournisseurs/2.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero3 {
   background: url(/images/top-fournisseurs/3.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero4 {
   background: url(/images/top-fournisseurs/4.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero5 {
   background: url(/images/top-fournisseurs/5.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero6 {
   background: url(/images/top-fournisseurs/6.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero7 {
   background: url(/images/top-fournisseurs/7.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero8 {
   background: url(/images/top-fournisseurs/8.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .quoi-avez-vous-besoin .pagination {
@@ -465,6 +473,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   border-radius: 8px;
   border: solid #ABABAB;
   padding: 2%;
+  margin: 2% auto;
 }
 
 .liste-cadre-box p {
@@ -491,6 +500,14 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   font-size: 19px;
   font-weight: bold;
   margin: auto 40px;
+}
+
+.liste-cadre-box .titre-statut .fermer {
+  color: #EE5D50;
+}
+
+.liste-cadre-box .titre-statut .entraitement {
+  color: #FFA620;
 }
 
 .liste-cadre-box .titre-vue- {
@@ -569,5 +586,217 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
+}
+
+.Newsletter {
+  width: 96%;
+  margin: auto;
+  height: 292px;
+  background: #f6f3ed;
+  border-radius: 8px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Newsletter .formandtext {
+  width: 96%;
+}
+
+.Newsletter h1 {
+  color: #0B1437;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.Newsletter p {
+  color: #989898;
+}
+
+.Newsletter input[type="email"] {
+  height: 30px;
+  width: 400px;
+  font-size: 25px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+}
+
+.Newsletter input[type="submit"] {
+  height: 50px;
+  font-size: 25px;
+  border-radius: 8px;
+  border: none;
+  background: #835600;
+  padding: 10px;
+  color: white;
+  margin: 1%;
+}
+
+.actualite p {
+  width: 100% !important;
+}
+
+.card-des-actus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-on-actu {
+  background-size: 100%;
+  height: 535px;
+  background: white;
+  border: solid gray;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.card-on-actu .image-box {
+  height: 355px;
+  width: 100%;
+  background: url(/images/actu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-on-actu p {
+  font-size: 14px;
+  margin: 2%;
+  color: gray;
+}
+
+.card-on-actu .date-titre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-on-actu .date-titre p {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.card-on-actu .date-titre .date {
+  background: #dcd0b8;
+  padding: 10px;
+  margin-top: 2%;
+}
+
+.card-on-actu .date-titre .date hr {
+  color: black !important;
+  border: solid 1px;
+}
+
+.card-on-actu .comment-like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #835600;
+  height: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0px 0px 8px 8px;
+  color: white;
+}
+
+/* Style de base */
+.accordion {
+  margin: 0 auto;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 26px;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+.faq {
+  width: 96%;
+  margin: auto;
+}
+
+.titre-faq {
+  margin: 4% auto;
+}
+
+.blue-du-footer {
+  margin-top: 4%;
+  height: 332px;
+  background: #0B1437;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blue-du-footer h2 {
+  color: white;
+}
+
+.copirith {
+  height: 50px;
+  background: #DEDEDE;
+  font-size: 16px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #666666;
 }
 /*# sourceMappingURL=style.css.map */

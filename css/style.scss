@@ -88,7 +88,7 @@ nav.menu-header {
     align-items: center;
 
    .text-interieur-image{
-    width: 50%;
+    width: 58%;
     color: #ffffff;
     line-height: 40px;
     margin: 2%;
@@ -307,35 +307,43 @@ nav.menu-header {
         .cardnumero1{
             background:url(/images/top-fournisseurs/1.png);
             background-repeat: no-repeat;
+            background-size: cover;
         }
         .cardnumero2{
             background:url(/images/top-fournisseurs/2.png);
             background-repeat: no-repeat;
+            background-size: cover;
         }
         .cardnumero3{
             background:url(/images/top-fournisseurs/3.png);
             background-repeat: no-repeat;
+            background-size: cover;
         }
         .cardnumero4{
             background:url(/images/top-fournisseurs/4.png);
             background-repeat: no-repeat;
+            background-size: cover;
         }
         .cardnumero5{
             background:url(/images/top-fournisseurs/5.png);
             background-repeat: no-repeat;
+            background-size: cover;
         }
         .cardnumero6{
             background:url(/images/top-fournisseurs/6.png);
             background-repeat: no-repeat;
+            background-size: cover;
         }
 
         .cardnumero7{
             background:url(/images/top-fournisseurs/7.png);
             background-repeat: no-repeat;
+            background-size: cover;
         }
         .cardnumero8{
             background:url(/images/top-fournisseurs/8.png);
             background-repeat: no-repeat;
+            background-size: cover;
         }
 
 
@@ -460,6 +468,7 @@ nav.menu-header {
     border-radius: 8px;
     border: solid #ABABAB;
     padding: 2%;
+    margin: 2% auto;
 
     p{
         color:#ABABAB;
@@ -480,6 +489,14 @@ nav.menu-header {
             font-size: 19px;
             font-weight: bold;
             margin: auto 40px;
+        }
+        .fermer{
+
+            color:#EE5D50;
+
+        }
+        .entraitement{
+            color:#FFA620;
         }
 
 
@@ -552,4 +569,192 @@ nav.menu-header {
             }
         }
     }
+}
+
+
+.Newsletter{
+    width: 96%;
+    margin: auto;
+    height: 292px;
+    background:#f6f3ed;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+    .formandtext {
+        width: 96%;
+    }
+
+    h1{
+        color: #0B1437;
+        font-size: 37px;
+        font-weight: bold;
+    }
+    p{
+        color:#989898;
+    }
+
+    input[type="email"] {
+        height:30px;
+        width: 400px;
+        font-size: 25px;
+        border-radius: 8px;
+        border: none;
+        padding: 10px;
+    }
+
+    input[type="submit"]{
+        height:50px;
+        font-size: 25px;
+        border-radius: 8px;
+        border: none;
+        background:#835600;
+        padding: 10px;
+        color: white;
+        margin: 1%;
+    }
+}
+
+
+.actualite{
+   
+    p{
+        width: 100% !important;
+
+    }
+}
+
+.card-des-actus {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-on-actu{
+   
+    background-size: 100%;
+   height: 535px;
+   background: rgb(255, 255, 255);
+   border: solid gray;
+   border-radius: 8px;
+   width: 30%;
+
+   .image-box{
+    height: 355px;
+    width: 100%;
+    background: url(/images/actu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   }
+ p {
+    font-size: 14px;
+    margin: 2%;
+    color: gray;
+}
+
+   .date-titre {
+    display: flex;
+    align-items: center;
+
+    p {
+        font-size: 16px;
+        color: #000000;
+        font-weight: bold;
+        margin: 20px;
+    }
+
+    .date {
+        background:#dcd0b8;
+        padding: 10px;
+        margin-top: 2%;
+
+
+hr {
+    color: black !important;
+    border: solid 1px;
+}
+    }
+
+   
+}
+
+.comment-like {
+    display: flex;
+    justify-content: space-around;
+    background:#835600;
+    height: 45px;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+    color: white;
+}
+}
+
+
+/* Style de base */
+.accordion {
+    
+    margin: 0 auto;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+
+.faq{
+    width: 96%;
+    margin: auto;
+
+}
+
+.titre-faq {
+    margin: 4% auto;
+}
+
+.blue-du-footer{
+    margin-top: 4%;
+    height: 332px;
+    background: #0B1437;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2{
+        color: white;
+    }
+}
+
+.copirith{
+    height: 50px;
+    background:#DEDEDE;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
 }
