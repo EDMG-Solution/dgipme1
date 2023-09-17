@@ -785,9 +785,9 @@ hr {
             background: white;
             padding: 10px;
             margin: 0px 10px 0px 0px;
-            border-radius: 13px;
+            border-radius: 10px;
             color: #835600;
-            font-size: 10px;
+            font-size: 13px;
             font-weight: bold;
        
     }
@@ -908,3 +908,116 @@ hr {
     border-radius: 8px;
     line-height: 45px;
 }
+
+
+.aucunficheir{
+    color:#989898;
+
+}
+
+.autrebesion-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+      
+            font-size: 30px;
+            color:#111C44;
+
+       
+    }
+
+}
+
+.box-image-slide {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+   .box1-4 {
+        border-radius: 8px;
+        height: 24vh;
+        width: 24%;
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: center;
+       
+    }
+
+    .cradr-1{
+        background: url(/images/detaille-projet/1.png);
+    }
+    .cradr-2{
+        background: url(/images/detaille-projet/2.png);
+    }
+    .cradr-3{
+        background: url(/images/detaille-projet/3.png);
+    }
+
+    .cradr-4{
+        background: url(/images/detaille-projet/4.png);
+    }
+    
+}
+
+
+    .section-en-deux-presentation {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+
+    .section-gauche-p {
+        width: 50%;
+        margin-right: 2%;
+    
+        .box-lire-plus {
+            background: #f8f5f0;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            border: solid #f8f5f0;
+    
+            h1{
+                font-size: 25px;
+                color:#835600;
+            }
+            p{
+                font-size: 19px;
+                color:#989898;
+    
+                span{
+                    color: #39B8FF;
+                    font-weight: bold;
+                }
+            }
+
+           
+
+           
+        }
+    
+        .box-lire-plus div {
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+    
+             span {
+                margin:5px;
+            }
+
+        }
+    }
+
+    .box-lire-plus.Statistiques div {
+        display: flex;
+        justify-content: space-between;
+
+        .projet-stastique {
+            color:#39B8FF;
+            font-weight: bold;
+        }
+    }
+
+   
