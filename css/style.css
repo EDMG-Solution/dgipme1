@@ -1106,4 +1106,32 @@ nav.menu-header .menu-button button.button-menu-2:hover {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.photo-login {
+  height: 80vh;
+  width: 40%;
+  background: url(/images/persone-login.png);
+}
+
+.connectons-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 86vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photo-login {
+  margin: 2%;
+  border-radius: 8px;
+}
+
+.images-texte {
+  height: 63%;
+}
 /*# sourceMappingURL=style.css.map */
