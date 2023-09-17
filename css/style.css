@@ -1088,4 +1088,22 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   color: #39B8FF;
   font-weight: bold;
 }
+
+.texte-descriptionlogo {
+  text-align: center;
+}
+
+.Disponible-desci {
+  color: #01B574 !important;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
