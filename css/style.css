@@ -1107,12 +1107,6 @@ nav.menu-header .menu-button button.button-menu-2:hover {
           align-items: center;
 }
 
-.photo-login {
-  height: 80vh;
-  width: 40%;
-  background: url(/images/persone-login.png);
-}
-
 .connectons-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1127,11 +1121,82 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 }
 
 .photo-login {
+  height: 80vh;
+  width: 37%;
+  background: url(/images/persone-login.png);
   margin: 2%;
-  border-radius: 8px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .images-texte {
-  height: 63%;
+  height: 35%;
+}
+
+.texte-intern-photo {
+  margin: 20% 3%;
+}
+
+.eclipe {
+  position: absolute;
+  left: -100px;
+  top: 19vh;
+  z-index: -1;
+}
+
+.formulaire-connextion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input[type="submit"] {
+  margin: 10px auto;
+  background: #835600;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.texte-mot-de-passe {
+  text-align: center;
+}
+
+.connexion-page {
+  color: #835600;
+}
+
+.parametre-connexion {
+  color: #111C44;
+}
+
+input[type="email"], input[type="password"] {
+  height: 40px;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 8px;
+  border: solid gray;
+}
+
+.texte-mot-de-passe {
+  color: #825600;
 }
 /*# sourceMappingURL=style.css.map */
