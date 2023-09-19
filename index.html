@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <title>DGIPME</title>
 </head>
 <body>
@@ -112,7 +114,7 @@ PME et TPE désirant se digitaliser.
 
             <div class="card-top-fournisseur">
 
-                <div class="card-fourniseur cardnumero1">
+                <div  class="card-fourniseur cardnumero1">
                         <div class="voter-et-detaille">
                             <a href="" class="votez"> Votez</a>
                             <a href="presentationdufournisseur.html" class="voir-détail">Voir détail</a>
@@ -486,8 +488,8 @@ de stimuler le développement de l'activité.
                     <p> Inscrivez-vous en tant que TPE/PME ou Provider pour exprimer vos besoins digitaux et trouver des partenaires</p>
                     
                     <div class="deux-button-interne"> 
-                        <button class="deux--interne butoon1">Créer un compte</button>
-                        <button class="deux--interne butoon2">Poster une solution</button>
+                      <a href="#">  <button class="deux--interne butoon1">Créer un compte</button></a> 
+                       <a href="#"><button class="deux--interne butoon2">Poster une solution</button> </a> 
                     
                     </div>
                 </div>
@@ -894,5 +896,8 @@ accordionItems.forEach(item => {
         item.classList.toggle('active');
     });
 });
+
+
+
 </script>
 </html>

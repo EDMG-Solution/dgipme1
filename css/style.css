@@ -31,6 +31,13 @@ nav.menu-header .menu-titre a {
   color: #0B1437;
 }
 
+nav.menu-header .menu-titre a:hover {
+  color: #835600 !important;
+  border-bottom: 2px solid #835600;
+  padding-bottom: 2px;
+  display: inline-block;
+}
+
 nav.menu-header .menu-titre .active-link {
   color: #835600 !important;
   border-bottom: 2px solid  #835600;
@@ -111,6 +118,10 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   margin: 0px 5px;
 }
 
+.image-header .text-interieur-image .button-image1:hover {
+  background: #0B1437;
+}
+
 .image-header .text-interieur-image .button-image2 {
   height: 65px;
   background: #0B1437;
@@ -121,6 +132,10 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   font-size: 21px;
   font-weight: bold;
   margin: 0px 5px;
+}
+
+.image-header .text-interieur-image .button-image2:hover {
+  background: #835600;
 }
 
 .section-aprop {
@@ -220,6 +235,10 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   width: 146px;
 }
 
+.quoi-avez-vous-besoin .button-texte-recherche a.button-recherche:hover {
+  background: #342200;
+}
+
 .quoi-avez-vous-besoin .card-top-fournisseur {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -229,6 +248,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .card-fourniseur {
@@ -248,6 +268,13 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  opacity: 0;
+  z-index: 9;
+}
+
+.quoi-avez-vous-besoin .card-top-fournisseur .card-fourniseur .voter-et-detaille:hover {
+  opacity: 1;
+  z-index: 9999999999999999999;
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .card-fourniseur .voter-et-detaille a {
@@ -264,6 +291,17 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 
 .quoi-avez-vous-besoin .card-top-fournisseur .card-fourniseur .voter-et-detaille .voir-détail {
   background: #835600;
+}
+
+.quoi-avez-vous-besoin .card-top-fournisseur .card-fourniseur .voter-et-detaille::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: red;
+  opacity: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .card-fourniseur h1 {
@@ -317,48 +355,128 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   background: url(/images/top-fournisseurs/1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  overflow: hidden;
+}
+
+.quoi-avez-vous-besoin .card-top-fournisseur .cardnumero1:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero2 {
   background: url(/images/top-fournisseurs/2.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  overflow: hidden;
+}
+
+.quoi-avez-vous-besoin .card-top-fournisseur .cardnumero2:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero3 {
   background: url(/images/top-fournisseurs/3.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  overflow: hidden;
+}
+
+.quoi-avez-vous-besoin .card-top-fournisseur .cardnumero3:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero4 {
   background: url(/images/top-fournisseurs/4.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  overflow: hidden;
+}
+
+.quoi-avez-vous-besoin .card-top-fournisseur .cardnumero4:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero5 {
   background: url(/images/top-fournisseurs/5.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  overflow: hidden;
+}
+
+.quoi-avez-vous-besoin .card-top-fournisseur .cardnumero5:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero6 {
   background: url(/images/top-fournisseurs/6.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  overflow: hidden;
+}
+
+.quoi-avez-vous-besoin .card-top-fournisseur .cardnumero6:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero7 {
   background: url(/images/top-fournisseurs/7.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  overflow: hidden;
+}
+
+.quoi-avez-vous-besoin .card-top-fournisseur .cardnumero7:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .cardnumero8 {
   background: url(/images/top-fournisseurs/8.png);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  overflow: hidden;
+}
+
+.quoi-avez-vous-besoin .card-top-fournisseur .cardnumero8:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .quoi-avez-vous-besoin .pagination {
@@ -403,6 +521,11 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 
 .quoi-avez-vous-besoin .button-fournisseur a button svg {
   margin: -5px auto;
+}
+
+.quoi-avez-vous-besoin .button-fournisseur a button:hover {
+  color: white;
+  background: #111C44;
 }
 
 .vous-este-fournisseur {
@@ -456,9 +579,20 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   color: #ffffff;
 }
 
+.vous-este-fournisseur .setion-gauche .butoon1:hover {
+  background: #ffffff !important;
+  border: solid #ffffff !important;
+  color: #39B8FF;
+}
+
 .vous-este-fournisseur .setion-gauche .butoon2 {
   color: #111C44;
   border: solid #111C44 !important;
+}
+
+.vous-este-fournisseur .setion-gauche .butoon2:hover {
+  background: #111C44 !important;
+  color: #ffffff;
 }
 
 .vous-este-fournisseur .setion-droit {
@@ -581,11 +715,15 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   border-radius: 8px;
 }
 
+.liste-cadre-box .budget-button button:hover {
+  background: #01B574;
+}
+
 .liste-cadre-box .budget-button button a {
-  color: white;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .Newsletter {
@@ -637,6 +775,12 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   margin: 1%;
 }
 
+.Newsletter input[type="submit"]:hover {
+  color: #835600;
+  background: white;
+  border: solid #835600;
+}
+
 .actualite p {
   width: 100% !important;
 }
@@ -662,6 +806,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   border: solid gray;
   border-radius: 8px;
   width: 30%;
+  overflow: hidden;
 }
 
 .card-on-actu .image-box {
@@ -670,6 +815,16 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   background: url(/images/actu.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.card-on-actu .image-box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .card-on-actu p {
@@ -744,6 +899,10 @@ nav.menu-header .menu-button button.button-menu-2:hover {
       -ms-flex-align: center;
           align-items: center;
   font-size: 26px;
+}
+
+.accordion-header:hover {
+  color: #825600;
 }
 
 .accordion-content {
@@ -989,6 +1148,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow: hidden;
 }
 
 .box-image-slide .box1-4 {
@@ -1009,18 +1169,58 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 
 .box-image-slide .cradr-1 {
   background: url(/images/detaille-projet/1.png);
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.box-image-slide .cradr-1:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .box-image-slide .cradr-2 {
   background: url(/images/detaille-projet/2.png);
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.box-image-slide .cradr-2:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .box-image-slide .cradr-3 {
   background: url(/images/detaille-projet/3.png);
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.box-image-slide .cradr-3:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .box-image-slide .cradr-4 {
   background: url(/images/detaille-projet/4.png);
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.box-image-slide .cradr-4:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .section-en-deux-presentation {
@@ -1168,12 +1368,19 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 input[type="submit"] {
   margin: 10px auto;
   background: #835600;
+  border: solid #835600;
   color: white;
   padding: 10px;
   font-size: 18px;
   border: none;
   border-radius: 8px;
   font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  color: #835600;
+  background: white;
+  border: solid #835600;
 }
 
 .texte-mot-de-passe {

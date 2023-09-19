@@ -27,6 +27,14 @@ nav.menu-header {
         font-size: 15px;
         font-weight: bold;
         color:#0B1437;
+
+        &:hover{
+            color: #835600 !important;
+            border-bottom: 2px solid #835600;
+            padding-bottom: 2px;
+            display: inline-block;
+
+        }
     }
     .active-link{
        
@@ -112,6 +120,11 @@ nav.menu-header {
         font-weight:bold;
         margin: 0px 5px;
 
+        &:hover{
+            background: #0B1437;
+
+        }
+
     }
     .button-image2 {
         height: 65px;
@@ -123,6 +136,11 @@ nav.menu-header {
         font-size: 21px;
         font-weight:bold;
         margin: 0px 5px;
+
+        &:hover{
+            background: #835600;
+
+        }
 
     }
 
@@ -213,6 +231,11 @@ nav.menu-header {
                 justify-content: space-between;
                 align-items: center;
                 width: 146px;
+
+                &:hover{
+                    background:#342200;
+
+                }
             
         }
     }
@@ -221,6 +244,7 @@ nav.menu-header {
         display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow: hidden;
 
         .card-fourniseur{
             
@@ -230,13 +254,27 @@ nav.menu-header {
             position: relative;
             
                 margin: 1% 0%;
+                
+
+                
     
+
+              
 
             .voter-et-detaille{
                 padding-top: 11%;
                 display: flex;
                 margin: auto;
                 justify-content: space-between;
+                opacity: 0;
+                z-index: 9;
+
+                &:hover{
+                    opacity: 1;
+                    z-index: 9999999999999999999;
+                }
+
+               
 
               a{
                 text-decoration: none;
@@ -255,6 +293,17 @@ nav.menu-header {
               }
                
 
+            }
+
+            .voter-et-detaille::after {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                background: red;
+                opacity: 0;
+                top: 0;
+                z-index: -1;
             }
 
             h1{
@@ -308,42 +357,98 @@ nav.menu-header {
             background:url(/images/top-fournisseurs/1.png);
             background-repeat: no-repeat;
             background-size: cover;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            &:hover{
+
+                transform: scale(1.02);
+            }
         }
         .cardnumero2{
             background:url(/images/top-fournisseurs/2.png);
             background-repeat: no-repeat;
             background-size: cover;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            &:hover{
+
+                transform: scale(1.02);
+            }
+
         }
         .cardnumero3{
             background:url(/images/top-fournisseurs/3.png);
             background-repeat: no-repeat;
             background-size: cover;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            &:hover{
+
+                transform: scale(1.02);
+            }
+
+
         }
         .cardnumero4{
             background:url(/images/top-fournisseurs/4.png);
             background-repeat: no-repeat;
             background-size: cover;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            &:hover{
+
+                transform: scale(1.02);
+            }
+
         }
         .cardnumero5{
             background:url(/images/top-fournisseurs/5.png);
             background-repeat: no-repeat;
             background-size: cover;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            &:hover{
+
+                transform: scale(1.02);
+            }
+
         }
         .cardnumero6{
             background:url(/images/top-fournisseurs/6.png);
             background-repeat: no-repeat;
             background-size: cover;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            &:hover{
+
+                transform: scale(1.02);
+            }
+
         }
 
         .cardnumero7{
             background:url(/images/top-fournisseurs/7.png);
             background-repeat: no-repeat;
             background-size: cover;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            &:hover{
+
+                transform: scale(1.02);
+            }
+
         }
         .cardnumero8{
             background:url(/images/top-fournisseurs/8.png);
             background-repeat: no-repeat;
             background-size: cover;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+            &:hover{
+
+                transform: scale(1.02);
+            }
+
         }
 
 
@@ -392,6 +497,12 @@ nav.menu-header {
                     svg {
                         margin: -5px auto;
                     }  
+
+                    &:hover{
+                        color:white;
+                        background: #111C44;
+
+                    }
             }
         }
 
@@ -442,12 +553,25 @@ nav.menu-header {
                 border: solid #39B8FF !important;
                 color: #ffffff;
 
+                &:hover{
+
+                    background: #ffffff !important;
+                border: solid #ffffff !important;
+                color: #39B8FF;
+                }
+
             }
 
             .butoon2{
 
                 color: #111C44;
                 border: solid #111C44 !important;
+
+                &:hover{
+
+                    background: #111C44 !important;
+                    color: #ffffff;
+                }
 
             }
         
@@ -560,11 +684,20 @@ nav.menu-header {
             width: 145px;
             border: none;
             border-radius: 8px;
+            &:hover{
+               
+                background:#01B574;
+               
+                
+            }
             a{
-                color: white;
+               
                 text-decoration: none;
                 font-size: 20px;
                 font-weight: bold;
+                color: #ffffff;
+
+               
 
             }
         }
@@ -614,6 +747,13 @@ nav.menu-header {
         padding: 10px;
         color: white;
         margin: 1%;
+
+        &:hover{
+            color: #835600;
+            background:white;
+            border: solid #835600;
+
+        }
     }
 }
 
@@ -641,6 +781,7 @@ nav.menu-header {
    border: solid gray;
    border-radius: 8px;
    width: 30%;
+   overflow: hidden;
 
    .image-box{
     height: 355px;
@@ -648,6 +789,13 @@ nav.menu-header {
     background: url(/images/actu.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+
+    &:hover{
+        transform: scale(1.1);
+
+    }
 
    }
  p {
@@ -713,6 +861,10 @@ hr {
     justify-content: space-between;
     align-items: center;
     font-size: 26px;
+
+    &:hover{
+        color: #825600;
+    }
 }
 
 .accordion-content {
@@ -934,6 +1086,8 @@ hr {
     text-align: center;
     justify-content: space-between;
 
+    overflow: hidden;
+
    .box1-4 {
         border-radius: 8px;
         height: 24vh;
@@ -947,16 +1101,38 @@ hr {
 
     .cradr-1{
         background: url(/images/detaille-projet/1.png);
+        background-position: center;
+    transition: transform 0.3s ease;
+        &:hover{
+            transform: scale(1.03);
+        }
+    
+
     }
     .cradr-2{
         background: url(/images/detaille-projet/2.png);
+        background-position: center;
+        transition: transform 0.3s ease;
+            &:hover{
+                transform: scale(1.03);
+            }
     }
     .cradr-3{
         background: url(/images/detaille-projet/3.png);
+        background-position: center;
+        transition: transform 0.3s ease;
+            &:hover{
+                transform: scale(1.03);
+            }
     }
 
     .cradr-4{
         background: url(/images/detaille-projet/4.png);
+        background-position: center;
+        transition: transform 0.3s ease;
+            &:hover{
+                transform: scale(1.03);
+            }
     }
     
 }
@@ -1081,12 +1257,21 @@ hr {
 input[type="submit"] {
     margin: 10px auto;
     background:#835600;
+    border: solid #835600;
     color: white;
     padding: 10px;
     font-size: 18px;
     border: none;
     border-radius: 8px;
     font-weight: bold;
+
+
+    &:hover{
+        color: #835600;
+        background:white;
+        border: solid #835600;
+
+    }
 }
 
 .texte-mot-de-passe {
@@ -1107,6 +1292,7 @@ input[type="email"], input[type="password"] {
     padding: 5px;
     border-radius: 8px;
     border: solid gray;
+
 }
 
 .texte-mot-de-passe {
