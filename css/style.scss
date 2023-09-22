@@ -90,7 +90,6 @@ nav.menu-header {
 .image-header{
     height: 675px;
     width: 100% !important;
-    background:url(/images/image-home-pricipal.png);
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -1301,7 +1300,13 @@ input[type="email"], input[type="password"] {
 }
 
 .texte-mot-de-passe {
-    color: #825600;
+    color: #0B1437;
+}
+.copirith.connectionpages {
+    background: white;
+    display: flex;
+    width: 60%;
+    justify-content: center;
 }
 
 .menu-burger {
@@ -1518,6 +1523,15 @@ input.valider {
     border-color: #ffffff00 transparent transparent transparent;
 }
 
+.liste-cadre-box:hover {
+    background: #dde2e7;
+}
+
+
+input.Se-connecter {
+    background: #0b1437;
+    font-weight: inherit;
+}
 
 /*CSS rules for screens with a maximum */
 

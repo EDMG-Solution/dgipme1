@@ -82,7 +82,6 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 .image-header {
   height: 675px;
   width: 100% !important;
-  background: url(/images/image-home-pricipal.png);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1406,7 +1405,18 @@ input[type="email"], input[type="password"] {
 }
 
 .texte-mot-de-passe {
-  color: #825600;
+  color: #0B1437;
+}
+
+.copirith.connectionpages {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .menu-burger {
@@ -1637,6 +1647,15 @@ input.valider {
   border-width: 5px;
   border-style: solid;
   border-color: #ffffff00 transparent transparent transparent;
+}
+
+.liste-cadre-box:hover {
+  background: #dde2e7;
+}
+
+input.Se-connecter {
+  background: #0b1437;
+  font-weight: inherit;
 }
 
 /*CSS rules for screens with a maximum */
