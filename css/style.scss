@@ -11,7 +11,7 @@
 }
 
 nav.menu-header {
-    width: 96%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -91,9 +91,10 @@ nav.menu-header {
     height: 675px;
     width: 100% !important;
     background:url(/images/image-home-pricipal.png);
-   
     display: flex;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
    .text-interieur-image{
     width: 58%;
@@ -150,7 +151,7 @@ nav.menu-header {
 
 .section-aprop {
 
-    width: 96%;
+    width: 90%;
     margin:4% auto;
     display: flex;
 
@@ -192,7 +193,7 @@ nav.menu-header {
 
 .quoi-avez-vous-besoin{
 
-    width: 96%;
+    width: 90%;
     margin: auto;
     
    
@@ -262,7 +263,7 @@ nav.menu-header {
               
 
             .voter-et-detaille{
-                padding-top: 11%;
+               
                 display: flex;
                 margin: auto;
                 justify-content: space-between;
@@ -512,7 +513,7 @@ nav.menu-header {
 }
 
 .vous-este-fournisseur {
-    width: 96%;
+    width: 90%;
     margin: auto;
     height: 420px;
     border-radius: 8px;
@@ -535,7 +536,7 @@ nav.menu-header {
         }
         .deux-button-interne {
             display: flex;
-            justify-content: space-between;
+            
             width: 83%;
         }
 
@@ -566,6 +567,7 @@ nav.menu-header {
 
                 color: #111C44;
                 border: solid #111C44 !important;
+                margin-left: 8%;
 
                 &:hover{
 
@@ -583,6 +585,7 @@ nav.menu-header {
         background: url(/images/persone.png);
         width: 50%;
         background-repeat: no-repeat;
+        background-position: right;
     }
 }
 
@@ -592,7 +595,7 @@ nav.menu-header {
     border-radius: 8px;
     border: solid #ABABAB;
     padding: 2%;
-    margin: 2% auto;
+    margin: 4% auto;
 
     p{
         color:#ABABAB;
@@ -706,7 +709,7 @@ nav.menu-header {
 
 
 .Newsletter{
-    width: 96%;
+    width: 90%;
     margin: auto;
     height: 292px;
     background:#f6f3ed;
@@ -717,7 +720,7 @@ nav.menu-header {
 
 
     .formandtext {
-        width: 96%;
+        width: 90%;
     }
 
     h1{
@@ -879,7 +882,7 @@ hr {
 
 
 .faq{
-    width: 96%;
+    width: 90%;
     margin: auto;
 
 }
@@ -918,7 +921,7 @@ hr {
     align-items: center;
 
     .header-texte{
-        width: 96%;
+        width: 90%;
         margin: auto;
     }
 
@@ -999,7 +1002,7 @@ hr {
 
 .contenue-interne {
     margin: auto;
-    width: 96%;
+    width: 100%;
 
     .budget-icone {
         font-size: 20px;
@@ -1141,6 +1144,8 @@ hr {
     .section-en-deux-presentation {
         display: flex;
         flex-direction: row-reverse;
+        width: 90%;
+        margin: auto;
     }
 
 
@@ -1303,8 +1308,55 @@ input[type="email"], input[type="password"] {
     display: none;
 }
 
+.info-disponible {
+    margin: 4% auto;
+    width: 90%;
+    color: #02b574;
+    font-weight: bold;
+}
 
+.info-disponible.dipoble-vert.Occupe {
+    color: #7552ff !important;
+}
 
+.pub {
+    text-align: center;
+    background: #1b254b !important;
+    border: none !important;
+    height: 127px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    h1{
+        color: white !important;
+    }
+}
+
+.dive-avant-footer , .section-en-deux{
+    margin: auto;
+    width: 90%;
+
+}
+
+h2.description-besion-besion-button-intern {
+    width: 90%;
+    margin: 3% auto;
+}
+
+input[type="submit"] {
+  
+    width: 100%;
+}
+
+.temoignages {
+    text-align: center;
+    height: 127px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
 
 /*CSS rules for screens with a maximum */
 
@@ -1363,7 +1415,7 @@ p , a , button {
     flex-direction: column;
 
     .apropos-gauche , .apropos-droite {
-        width: 96%;
+        width: 90%;
         margin: auto;
 
     }
@@ -1509,7 +1561,7 @@ h2 {
     }
    
     .image-header .text-interieur-image {
-        width: 96%;
+        width: 90%;
         color: #ffffff;
         line-height: 40px;
         margin: 2%;
@@ -1545,7 +1597,7 @@ h2 {
     }
 
     .vous-este-fournisseur .setion-gauche {
-        width: 96%;
+        width: 90%;
         margin: auto;
     }
 
@@ -1585,7 +1637,7 @@ h2 {
 
 
     .Newsletter {
-        width: 96%;
+        width: 90%;
         margin: auto;
         height: 292px;
         background: #f6f3ed;

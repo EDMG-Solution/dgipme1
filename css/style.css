@@ -9,7 +9,7 @@ body {
 }
 
 nav.menu-header {
-  width: 96%;
+  width: 90%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,6 +89,8 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image-header .text-interieur-image {
@@ -139,7 +141,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 }
 
 .section-aprop {
-  width: 96%;
+  width: 90%;
   margin: 4% auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -185,7 +187,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 }
 
 .quoi-avez-vous-besoin {
-  width: 96%;
+  width: 90%;
   margin: auto;
 }
 
@@ -260,7 +262,6 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 }
 
 .quoi-avez-vous-besoin .card-top-fournisseur .card-fourniseur .voter-et-detaille {
-  padding-top: 11%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -529,7 +530,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 }
 
 .vous-este-fournisseur {
-  width: 96%;
+  width: 90%;
   margin: auto;
   height: 420px;
   border-radius: 8px;
@@ -559,9 +560,6 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   width: 83%;
 }
 
@@ -588,6 +586,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 .vous-este-fournisseur .setion-gauche .butoon2 {
   color: #111C44;
   border: solid #111C44 !important;
+  margin-left: 8%;
 }
 
 .vous-este-fournisseur .setion-gauche .butoon2:hover {
@@ -599,6 +598,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   background: url(/images/persone.png);
   width: 50%;
   background-repeat: no-repeat;
+  background-position: right;
 }
 
 .liste-cadre-box {
@@ -607,7 +607,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   border-radius: 8px;
   border: solid #ABABAB;
   padding: 2%;
-  margin: 2% auto;
+  margin: 4% auto;
 }
 
 .liste-cadre-box p {
@@ -727,7 +727,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 }
 
 .Newsletter {
-  width: 96%;
+  width: 90%;
   margin: auto;
   height: 292px;
   background: #f6f3ed;
@@ -742,7 +742,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 }
 
 .Newsletter .formandtext {
-  width: 96%;
+  width: 90%;
 }
 
 .Newsletter h1 {
@@ -915,7 +915,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 }
 
 .faq {
-  width: 96%;
+  width: 90%;
   margin: auto;
 }
 
@@ -971,7 +971,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 }
 
 .photo-header .header-texte {
-  width: 96%;
+  width: 90%;
   margin: auto;
 }
 
@@ -1050,7 +1050,7 @@ nav.menu-header .menu-button button.button-menu-2:hover {
 
 .contenue-interne {
   margin: auto;
-  width: 96%;
+  width: 100%;
 }
 
 .contenue-interne .budget-icone {
@@ -1231,6 +1231,8 @@ nav.menu-header .menu-button button.button-menu-2:hover {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  width: 90%;
+  margin: auto;
 }
 
 .section-gauche-p {
@@ -1411,6 +1413,68 @@ input[type="email"], input[type="password"] {
   display: none;
 }
 
+.info-disponible {
+  margin: 4% auto;
+  width: 90%;
+  color: #02b574;
+  font-weight: bold;
+}
+
+.info-disponible.dipoble-vert.Occupe {
+  color: #7552ff !important;
+}
+
+.pub {
+  text-align: center;
+  background: #1b254b !important;
+  border: none !important;
+  height: 127px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white !important;
+}
+
+.pub h1 {
+  color: white !important;
+}
+
+.dive-avant-footer, .section-en-deux {
+  margin: auto;
+  width: 90%;
+}
+
+h2.description-besion-besion-button-intern {
+  width: 90%;
+  margin: 3% auto;
+}
+
+input[type="submit"] {
+  width: 100%;
+}
+
+.temoignages {
+  text-align: center;
+  height: 127px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /*CSS rules for screens with a maximum */
 @media screen and (max-width: 768px) {
   .menu-burger {
@@ -1465,7 +1529,7 @@ input[type="email"], input[type="password"] {
             flex-direction: column;
   }
   .section-aprop .apropos-gauche, .section-aprop .apropos-droite {
-    width: 96%;
+    width: 90%;
     margin: auto;
   }
   .quoi-avez-vous-besoin .card-top-fournisseur .card-fourniseur {
@@ -1599,7 +1663,7 @@ input[type="email"], input[type="password"] {
     font-size: 18px !important;
   }
   .image-header .text-interieur-image {
-    width: 96%;
+    width: 90%;
     color: #ffffff;
     line-height: 40px;
     margin: 2%;
@@ -1635,7 +1699,7 @@ input[type="email"], input[type="password"] {
         flex-wrap: wrap;
   }
   .vous-este-fournisseur .setion-gauche {
-    width: 96%;
+    width: 90%;
     margin: auto;
   }
   .setion-droit {
@@ -1668,7 +1732,7 @@ input[type="email"], input[type="password"] {
     padding: 10px;
   }
   .Newsletter {
-    width: 96%;
+    width: 90%;
     margin: auto;
     height: 292px;
     background: #f6f3ed;
